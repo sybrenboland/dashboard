@@ -27,5 +27,6 @@ export class AppComponent {
     { name: 'ReddCoin', code: 'RDD', amount: '69765.657158' },
     { name: 'Particl', code: 'PART', amount: '11.46162' },
     { name: 'Zcoin', code: 'XZC', amount: '2.572989' },
+    { name: 'CloakCoin ', code: 'CLOAK', amount: '7.956222' },
   ];
 }
