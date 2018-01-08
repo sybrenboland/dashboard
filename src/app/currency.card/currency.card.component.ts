@@ -10,6 +10,8 @@ import 'rxjs/add/operator/map';
 export class CurrencyCardComponent {
   @Input() currencyName: string;
   @Input() currencyCode: string;
+  @Input() amount: string;
+
   @Output() price: Price;
 
   constructor(private http: Http) {}
@@ -18,6 +20,10 @@ export class CurrencyCardComponent {
     this.http.get(`https://min-api.cryptocompare.com/data/price?fsym=${this.currencyCode}&tsyms=EUR`)
       .map((x, idx) => x.json() as Price)
       .subscribe(price => this.price = price);
+  }
+
+  getTotal() {
+    return +this.price.EUR * +this.amount;
   }
 }
 

@@ -5,7 +5,9 @@
 </head>
 <body class="container m-t-1">
 
-<app-currency-card currencyName="Bitcoin" currencyCode="BTC"></app-currency-card>
+<div *ngFor="let currency of currencies">
+  <app-currency-card currencyName="{{currency.name}}" currencyCode="{{currency.code}}" amount="{{currency.amount}}"></app-currency-card>
+</div>
 
 </body>
 </html>

@@ -8,8 +8,10 @@
 <div class="card card-block">
 
   <div class="card-body">
-    <h4 class="card-title">{{currencyName}} ({{currencyCode}})</h4>
-    <p class="card-text">Price:  {{price.EUR}} EUR</p>
+
+        <h4 class="card-title">{{currencyName}} ({{currencyCode}})</h4>
+        <p class="card-text">Price:  {{price.EUR}} EUR</p>
+        <p>Total: {{getTotal() | number : '1.2-2'}}</p>
   </div>
 
 </div>
