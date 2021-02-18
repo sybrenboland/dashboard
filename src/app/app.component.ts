@@ -7,9 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   currencies = [
-    { name: 'Ethereum', code: 'ETH', amount: '0.81' },
+    { name: 'Ethereum', code: 'ETH', amount: '6.0' },
     { name: 'Ripple', code: 'XRP', amount: '2100.0' },
-    { name: 'Iotacoin', code: 'IOT', amount: '79.5' },
+    { name: 'Iotacoin', code: 'MIOTA', amount: '79.5' },
+    { name: 'EOS', code: 'EOS', amount: '111.8885' },
+    { name: 'Filecoin', code: 'FIL', amount: '11.52165547' },
+    { name: 'BasicAttention', code: 'BAT', amount: '805.46423164' },
+    { name: 'Stellar', code: 'XLM', amount: '872.2953364' },
+    { name: 'Tresor', code: 'XTZ', amount: '89.522605' },
     { name: 'Black coin', code: 'BLK', amount: '172.047155' },
     { name: 'Crown', code: 'CRW', amount: '28.382321' },
     { name: 'Dash', code: 'DASH', amount: '0.078587' },
