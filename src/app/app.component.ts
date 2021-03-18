@@ -7,20 +7,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   currencies = [
+    { name: 'Bitcoin', code: 'BTC', amount: '0.00469137' },
     { name: 'Ethereum', code: 'ETH', amount: '6.0' },
     { name: 'Ripple', code: 'XRP', amount: '2100.0' },
     { name: 'Iotacoin', code: 'MIOTA', amount: '79.5' },
     { name: 'EOS', code: 'EOS', amount: '111.8885' },
     { name: 'Filecoin', code: 'FIL', amount: '11.52165547' },
     { name: 'BasicAttention', code: 'BAT', amount: '805.46423164' },
-    { name: 'Cardano', code: 'ADA', amount: '377.296657' },
+    { name: 'Cardano', code: 'ADA', amount: '1350' },
     { name: 'Stellar', code: 'XLM', amount: '872.2953364' },
-    { name: 'Tresor', code: 'XTZ', amount: '89.522605' },
+    { name: 'Tezos', code: 'XTZ', amount: '89.522605' },
     { name: 'Shopping.io', code: 'SPI', amount: '12.889' },
     { name: 'Axion', code: 'AXN', amount: '5441286.404' },
     { name: 'Chain games', code: 'CHAIN', amount: '2023.998' },
     { name: 'Trustswap', code: 'SWAP', amount: '290.488' },
     { name: 'Offshift', code: 'XFT', amount: '63.323' },
+    { name: 'Litentry', code: 'LIT', amount: '72.083' },
+    { name: 'Cyberfi', code: 'CFI', amount: '26.504' },
+    { name: 'Litecoin', code: 'LTC', amount: '2.5703484' },
     { name: 'Black coin', code: 'BLK', amount: '172.047155' },
     { name: 'Crown', code: 'CRW', amount: '28.382321' },
     { name: 'Dash', code: 'DASH', amount: '0.078587' },
@@ -40,4 +44,27 @@ export class AppComponent {
     { name: 'Zcoin', code: 'XZC', amount: '2.572989' },
     { name: 'CloakCoin ', code: 'CLOAK', amount: '7.956222' },
   ];
+
+  // init2021 = [
+  //   { name: 'Ethereum', amount: '1000' },
+  //   { name: 'EOS',amount: '400' },
+  //   { name: 'Filecoin', amount: '400' },
+  //   { name: 'BasicAttention', amount: '400' },
+  //   { name: 'Cardano', amount: '1400' },
+  //   { name: 'Stellar', amount: '400' },
+  //   { name: 'Tezos', amount: '400' },
+  //   { name: 'Shopping.io', amount: '400' },
+  //   { name: 'Axion', amount: '1000' },
+  //   { name: 'Chain games', amount: '200' },
+  //   { name: 'Trustswap', amount: '1000' },
+  //   { name: 'Offshift', amount: '200' },
+  //   { name: 'Litentry', amount: '500' },
+  //   { name: 'Cyberfi', amount: '500' },
+  //   { name: 'Litecoin', amount: '400' },
+  //   { name: 'KeeperDAO', amount: '225?' },
+  //   { name: 'OptionRoom', amount: '225?' },
+  //   { name: 'Kira', amount: '225?' },
+  //   { name: 'Parsiq', amount: '225?' },
+  //   { name: 'Total', amount: '8600' }
+  // ];
 }
