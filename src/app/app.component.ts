@@ -48,8 +48,8 @@ export class AppComponent {
   // init2021 = [
   //   { name: 'Ethereum', amount: '1000' },
   //   { name: 'EOS',amount: '400' },
-  //   { name: 'Filecoin', amount: '400' },
-  //   { name: 'BasicAttention', amount: '400' },
+  //   { name: 'Filecoin', amount: '400 -> 600' },
+  //   { name: 'BasicAttention', amount: '400 -> 600' },
   //   { name: 'Cardano', amount: '1400' },
   //   { name: 'Stellar', amount: '400' },
   //   { name: 'Tezos', amount: '400' },
